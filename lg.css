@@ -13,7 +13,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 17px;
-	background-image:url("circlebg.png");background-size: cover; 
+	background-image:url("circlebg2.png");background-size: cover; 
 
 	background-repeat: no-repeat;
 }
@@ -53,22 +53,23 @@ span {
 
 a {
 	color: #333;
-	font-size: 14px;
+	font-size: 10px;
 	text-decoration: none;
-	margin: 15px 0;
+	/* margin: 15px 0; */
 }
 
 button {
 	border-radius: 20px;
 	border: #9bcadd/*#FF4B2B*/;
-	background:  linear-gradient(to right, #ababe0,#3d47da)/*#a3a4df*//*#FF4B2B*/;
+	background:  linear-gradient(to left, #7474ca,#101fee)/*#a3a4df*//*#FF4B2B*/;
 	color: #FFFFFF;
 	font-size: 12px;
-	font-weight: bold;
+	font-weight:900;
 	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	margin-top: 15px;
 }
 
 button:active {
@@ -232,6 +233,28 @@ input {
 svg{
 	width: 25px;
 }
+
+ul{
+    display: flex;
+    margin: 15px -90px;
+    padding: 4px -1px;
+	margin-top: 0px;
+}
+
+.item1{
+    list-style: none;
+    margin: 0px 3px;
+}
+
+.item2{
+	list-style: none;
+    margin: 0px 41px;
+}
+
+
+/* .option{
+	font-size: 10px;
+} */
 
 .social-container a {
 	border: 1px solid #DDDDDD;
